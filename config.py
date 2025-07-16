@@ -34,39 +34,39 @@ id_button = {}
 CMD_HELP = {}
 
 
-DEVS = [5574764542]
+DEVS = [6725042105]
 
-devs_boong = list(map(int, getenv("devs_boong", "5574764542").split()))
-api_id = int(getenv("api_id", "23177303"))
-api_hash = getenv("api_hash", "a24715bf82a29e1d7ae7a7cec060374b")
-bot_token = getenv("bot_token", "8061456995:AAEmXqo899eO9ZkU7UBLxgfbXYz5ag5jXNk")
-bot_id = int(getenv("bot_id", "8061456995"))
+devs_boong = list(map(int, getenv("devs_boong", "6725042105").split()))
+api_id = int(getenv("api_id", "20916426"))
+api_hash = getenv("api_hash", "8efe4edc5ebf1c7e24627e872dadf3df")
+bot_token = getenv("bot_token", "7679800629:AAF_LwYmcg3SyveM0qhE65J8Zy99J1N8c4E")
+bot_id = int(getenv("bot_id", "7679800629"))
 db_name = getenv("db_name", "JDatabase")
 log_pic = getenv("log_pic", "https://files.catbox.moe/6ycy32.jpg")
 def_bahasa = getenv("def_bahasa", "id")
-owner_id = int(getenv("owner_id", "5574764542"))
+owner_id = int(getenv("owner_id", "6725042105"))
 the_cegers = list(
     map(
         int,
         getenv(
             "the_cegers",
-            "5574764542",
+            "6725042105",
         ).split(),
     )
 )
-dump = int(getenv("dump", "-1002608488432"))
-bot_username = getenv("bot_username", "TheBestUbot")
-log_userbot = int(getenv("log_userbot", "-1002631506745"))
-log_autoreply = int(getenv("log_userbot", "-1002695926096"))
-default_afk_log = int(getenv("log_userbot", "-1002695926096"))
-nama_bot = getenv("nama_bot", "Jtech")
+dump = int(getenv("dump", "-1002532401344"))
+bot_username = getenv("bot_username", "@UserBotZoro_bot")
+log_userbot = int(getenv("log_userbot", "-1002545622363"))
+log_autoreply = int(getenv("log_userbot", "-1002545622363"))
+default_afk_log = int(getenv("log_userbot", "-1002545622363"))
+nama_bot = getenv("nama_bot", "ZoroBot")
 nama_ip = getenv("nama_ip", "Iphone 16 Pro")
 gemini_api = getenv("gemini_api", "jerzz")
 botcax_api = getenv("botcax_api", "moire_mor")
 
 # === MongoDB Loyalty Point ===
 from pymongo import MongoClient
-mongo_url = "mongodb+srv://jerzzuserbot:premiumbanget@cluster0.xw3aprs.mongodb.net/"
+mongo_url = "mongodb+srv://jurdun2024:Ohun02GetrmLzcFH@cluster0.6hqws7o.mongodb.net/"
 mongo_client = MongoClient(mongo_url)
 mongo_db = mongo_client["ubotliteloyal"] 
 mongo_points = mongo_db["loyalty_points"]
