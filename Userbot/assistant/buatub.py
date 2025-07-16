@@ -286,8 +286,7 @@ async def bikin_ubot(client, m, _):
         except:
             pass
     try:
-        await kn_client.join_chat("moire_room")
-        await kn_client.join_chat("moire_logs")
+        await kn_client.join_chat("BlackkBulll")
     except:
         pass
     prefix = nlx.get_prefix(kn_client.me.id)
