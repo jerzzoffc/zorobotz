@@ -5,29 +5,20 @@
 - ganti semua isi config.py sama punya lu kalo udah lanjut dibawah
 - clone repo :
 ```
-git clone https://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@github.com/jerzzoffc/hydrobot && cd hydrobot
+git clone https://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@github.com/jerzzoffc/zorobotz && cd zorobotz
 ```
 - Setup Vps (Jalankan hanya sekali) :
 ```
 bash setup.sh
 ```
 ```
-tmux new-session -s hydrobot
+tmux new-session -s zorobotz
 ```
 ```
-python3 -m venv hydrobot && source hydrobot/bin/activate
+python3 -m venv zorobotz && source zorobotz/bin/activate
 ```
 ```
-pip install filetype
-```
-```
-pip3 install -U pip
-```
-```
-pip3 install --no-cache-dir -r req.txt
-```
-```
-pip3 install geopy
+pip install filetype && pip3 install -U pip && pip3 install --no-cache-dir -r req.txt && pip3 install geopy && pip3 install rarfile && pip3 install TinyDB
 ```
 ```
 bash start.sh
