@@ -26,7 +26,7 @@ def get_tolol():
 
 TOLOL = get_tolol()
 
-NO_GCAST = [-1002357381726]
+NO_GCAST = [-1002631506745]
 
 load_dotenv()
 
@@ -34,39 +34,39 @@ id_button = {}
 CMD_HELP = {}
 
 
-DEVS = [1448998841]
+DEVS = [5574764542]
 
-devs_boong = list(map(int, getenv("devs_boong", "").split()))
-api_id = int(getenv("api_id", ""))
-api_hash = getenv("api_hash", "")
-bot_token = getenv("bot_token", "")
-bot_id = int(getenv("bot_id", ""))
-db_name = getenv("db_name", "")
-log_pic = getenv("log_pic", "https://")
+devs_boong = list(map(int, getenv("devs_boong", "5574764542").split()))
+api_id = int(getenv("api_id", "23177303"))
+api_hash = getenv("api_hash", "a24715bf82a29e1d7ae7a7cec060374b")
+bot_token = getenv("bot_token", "8061456995:AAEmXqo899eO9ZkU7UBLxgfbXYz5ag5jXNk")
+bot_id = int(getenv("bot_id", "8061456995"))
+db_name = getenv("db_name", "JDatabase")
+log_pic = getenv("log_pic", "https://files.catbox.moe/6ycy32.jpg")
 def_bahasa = getenv("def_bahasa", "id")
-owner_id = int(getenv("owner_id", ""))
+owner_id = int(getenv("owner_id", "5574764542"))
 the_cegers = list(
     map(
         int,
         getenv(
             "the_cegers",
-            "1448998841",
+            "5574764542",
         ).split(),
     )
 )
-dump = int(getenv("dump", ""))
-bot_username = getenv("bot_username", "")
-log_userbot = int(getenv("log_userbot", ""))
-log_autoreply = int(getenv("log_userbot", ""))
-default_afk_log = int(getenv("log_userbot", ""))
-nama_bot = getenv("nama_bot", "")
-nama_ip = getenv("nama_ip", "")
-gemini_api = getenv("gemini_api", "")
+dump = int(getenv("dump", "-1002608488432"))
+bot_username = getenv("bot_username", "TheBestUbot")
+log_userbot = int(getenv("log_userbot", "-1002631506745"))
+log_autoreply = int(getenv("log_userbot", "-1002695926096"))
+default_afk_log = int(getenv("log_userbot", "-1002695926096"))
+nama_bot = getenv("nama_bot", "Jtech")
+nama_ip = getenv("nama_ip", "Iphone 16 Pro")
+gemini_api = getenv("gemini_api", "jerzz")
 botcax_api = getenv("botcax_api", "moire_mor")
 
 # === MongoDB Loyalty Point ===
 from pymongo import MongoClient
-mongo_url = "mongodb+srv://"
+mongo_url = "mongodb+srv://jerzzuserbot:premiumbanget@cluster0.xw3aprs.mongodb.net/"
 mongo_client = MongoClient(mongo_url)
 mongo_db = mongo_client["ubotliteloyal"] 
 mongo_points = mongo_db["loyalty_points"]
