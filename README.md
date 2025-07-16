@@ -5,17 +5,17 @@
 - ganti semua isi config.py sama punya lu kalo udah lanjut dibawah
 - clone repo :
 ```
-git clone https://github.com/username/ubotlitex && cd ubotlitex
+git clone https://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@github.com/jerzzoffc/hydrobot && cd hydrobot
 ```
 - Setup Vps (Jalankan hanya sekali) :
 ```
 bash setup.sh
 ```
 ```
-tmux new-session -s ubotlitex
+tmux new-session -s hydrobot
 ```
 ```
-python3 -m venv venv && source venv/bin/activate
+python3 -m venv hydrobot && source hydrobot/bin/activate
 ```
 ```
 pip install filetype
